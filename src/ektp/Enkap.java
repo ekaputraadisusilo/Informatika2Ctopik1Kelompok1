@@ -21,4 +21,12 @@ public class Enkap {
     private String Warganegara;
     private String Rt;
     private String Desa;
+    
+    public String getRt() {
+        return Rt;
+    }
+
+    public void setRt(String rt) {
+        this.Rt = rt;
+    }
 }
