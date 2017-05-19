@@ -68,4 +68,6 @@ public class Enkap {
     public void setWarganegara(String warganegara){
         Warganegara = warganegara;
     }
+
 }
+
