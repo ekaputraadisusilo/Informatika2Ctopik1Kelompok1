@@ -67,7 +67,30 @@ public class Enkap {
     }
     public void setWarganegara(String warganegara){
         Warganegara = warganegara;
+    }     
+    public String getNik(){
+        return Nik;
     }
-
+    public String getNama(){
+        return Nama;
+    }
+    public String getTempatl(){
+        return Tempatl;
+    }
+    public String getAlamat(){
+        return Alamat;
+    }
+    public String getAgama(){
+        return Agama;
+    }
+    public String getStatus(){
+        return Status;
+    }
+    public String getPekerjaan(){
+        return Pekerjaan;
+    }
+    public String getWarganegara(){
+        return Warganegara;
+    }
 }
 
