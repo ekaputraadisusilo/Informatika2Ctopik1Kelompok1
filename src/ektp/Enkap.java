@@ -29,4 +29,19 @@ public class Enkap {
     public void setRt(String rt) {
         this.Rt = rt;
     }
+    public String getDesa() {
+        return Desa;
+    }
+
+    public void setDesa(String desa) {
+        this.Desa = desa;
+    }
+    
+    public String getJenis() {
+        return Jenis;
+    }
+
+    public void setJenis(String Jenis) {
+        this.Jenis = Jenis;
+    }
 }
