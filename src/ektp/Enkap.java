@@ -10,5 +10,15 @@ package ektp;
  * @author MY ASUS
  */
 public class Enkap {
-    
+    private String Nik;
+    private String Nama;
+    private String Tempatl;
+    private String Alamat;
+    private String Agama;
+    private String Jenis;
+    private String Status;
+    private String Pekerjaan;
+    private String Warganegara;
+    private String Rt;
+    private String Desa;
 }
