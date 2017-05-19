@@ -50,4 +50,22 @@ public class Enkap {
     public void setNama(String nama){
         Nama = nama;
     }
+    public void setTempatl(String tempatl){
+        Tempatl = tempatl;
+    }
+    public void setAlamat(String alamat){
+        Alamat = alamat;
+    }
+    public void setAgama(String agama){
+        Agama = agama;
+    }
+    public void setStatus(String status){
+        Status = status;
+    }
+    public void setPekerjaan(String pekerjaan){
+        Pekerjaan = pekerjaan;
+    }
+    public void setWarganegara(String warganegara){
+        Warganegara = warganegara;
+    }
 }
