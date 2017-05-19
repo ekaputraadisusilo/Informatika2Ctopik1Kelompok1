@@ -44,4 +44,7 @@ public class Enkap {
     public void setJenis(String Jenis) {
         this.Jenis = Jenis;
     }
+    public void setNik(String nik){
+        Nik = nik;
+    }
 }
