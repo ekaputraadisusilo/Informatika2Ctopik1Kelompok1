@@ -47,4 +47,7 @@ public class Enkap {
     public void setNik(String nik){
         Nik = nik;
     }
+    public void setNama(String nama){
+        Nama = nama;
+    }
 }
