@@ -156,4 +156,49 @@ public class Main {
                     }
                 }
             }
+            else if(pilih == 2){
+                int pilihr, pilihk;
+                Scanner tampil = new Scanner(System.in);
+                System.out.println("Tampil Data");
+                System.out.println("Pilih data anda");
+                System.out.println("1. Landungsari");
+                System.out.println("2. Sukun");
+                System.out.println("Pilih (1 / 2) :");
+                pilihk = tampil.nextInt();
+                if (pilihk == 1){
+                    System.out.println("Anda Memilih kelurahan Landungsari");
+                    System.out.println("Pilih RT Anda :");
+                    System.out.println("1. RT 1");
+                    System.out.println("2. RT 2");
+                    System.out.println("3. RT 3");
+                    System.out.println("4. RT 4");
+                    System.out.println("Pilih (1 / 2 / 3 / 4) :");
+                    pilihr = tampil.nextInt();
+                    if (pilihr == 1){
+                        for(Enkap is : rt1kl1){
+                            System.out.println("RT 1");
+                            System.out.println("NIK                  :"+is.getNik());
+                            System.out.println("Nama                 :"+is.getNama());
+                            System.out.println("Tempat Tanggal Lahir :"+is.getTempatl());
+                            System.out.println("Alamat               :"+is.getAlamat());
+                            System.out.println("Agama                :"+is.getAgama());
+                            System.out.println("Jenis Kelamin        :"+is.getJenis());
+                            System.out.println("Status               :"+is.getStatus());
+                            System.out.println("Pekerjaan            :"+is.getPekerjaan());
+                            System.out.println("Warganegara          :"+is.getWarganegara());
+                        }
+                    }else if(pilihr == 2){
+                        for(Enkap is : rt2kl1){
+                            System.out.println("RT 2");
+                            System.out.println("NIK                  :"+is.getNik());
+                            System.out.println("Nama                 :"+is.getNama());
+                            System.out.println("Tempat Tanggal Lahir :"+is.getTempatl());
+                            System.out.println("Alamat               :"+is.getAlamat());
+                            System.out.println("Agama                :"+is.getAgama());
+                            System.out.println("Jenis Kelamin        :"+is.getJenis());
+                            System.out.println("Status               :"+is.getStatus());
+                            System.out.println("Pekerjaan            :"+is.getPekerjaan());
+                            System.out.println("Warganegara          :"+is.getWarganegara());
+                        }
+                    }
 }
