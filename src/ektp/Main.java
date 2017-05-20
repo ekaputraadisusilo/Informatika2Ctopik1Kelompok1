@@ -201,4 +201,34 @@ public class Main {
                             System.out.println("Warganegara          :"+is.getWarganegara());
                         }
                     }
+                    else if(pilihr == 3){
+                        for(Enkap is : rt3kl1){
+                            System.out.println("RT 3");
+                            System.out.println("NIK                  :"+is.getNik());
+                            System.out.println("Nama                 :"+is.getNama());
+                            System.out.println("Tempat Tanggal Lahir :"+is.getTempatl());
+                            System.out.println("Alamat               :"+is.getAlamat());
+                            System.out.println("Agama                :"+is.getAgama());
+                            System.out.println("Jenis Kelamin        :"+is.getJenis());
+                            System.out.println("Status               :"+is.getStatus());
+                            System.out.println("Pekerjaan            :"+is.getPekerjaan());
+                            System.out.println("Warganegara          :"+is.getWarganegara());
+                        }
+                    }else if(pilihr == 4){
+                        for(Enkap is : rt4kl1){
+                            System.out.println("RT 4");
+                            System.out.println("NIK                  :"+is.getNik());
+                            System.out.println("Nama                 :"+is.getNama());
+                            System.out.println("Tempat Tanggal Lahir :"+is.getTempatl());
+                            System.out.println("Alamat               :"+is.getAlamat());
+                            System.out.println("Agama                :"+is.getAgama());
+                            System.out.println("Jenis Kelamin        :"+is.getJenis());
+                            System.out.println("Status               :"+is.getStatus());
+                            System.out.println("Pekerjaan            :"+is.getPekerjaan());
+                            System.out.println("Warganegara          :"+is.getWarganegara());
+                        }
+                    }else {
+                        System.out.println("Error data tidak ditemukan.");
+                    }
+                }
 }
