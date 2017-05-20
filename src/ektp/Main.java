@@ -116,4 +116,44 @@ public class Main {
                     }
             
                 }
+                else if(ip == 2){
+                    System.out.println("1. RT 1");
+                    System.out.println("2. RT 3");
+                    System.out.println("3. RT 3");
+                    System.out.println("4. RT 4");
+                    System.out.println("Masukkan RT :");
+                    r1= lr.nextInt();
+                    if(r1 == 1){
+                        isian.setDesa("Sukun");
+                        isian.setRt("RT 1");
+                        rt1kl2.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else if(r1 == 2){
+                        isian.setDesa("Sukun");
+                        isian.setRt("RT 2");
+                        rt2kl2.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else if(r1 == 3){
+                        isian.setDesa("Sukun");
+                        isian.setRt("RT 3");
+                        rt3kl2.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else if(r1 == 4){
+                        isian.setDesa("Sukun");
+                        isian.setRt("RT 4");
+                        rt4kl2.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else{
+                        System.out.println("Error, Melebihi batas RT.");
+                    }
+                }
+            }
 }
