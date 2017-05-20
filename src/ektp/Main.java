@@ -55,4 +55,30 @@ public class Main {
                 PEKERJAAN = isi.nextLine();
                 System.out.println("Warganegara (WNI / WNA) :");
                 WARGA = isi.nextLine();
+                
+                Enkap isian = new Enkap();
+                isian.setNik(NIK);
+                isian.setNama(NAMA);
+                isian.setTempatl(TANGGAL);
+                isian.setAlamat(ALAMAT);
+                isian.setAgama(AGAMA);
+                isian.setJenis(JENIS);
+                isian.setStatus(STATUS);
+                isian.setPekerjaan(PEKERJAAN);
+                isian.setWarganegara(WARGA);
+                
+                
+                Scanner lr = new Scanner (System.in);
+                System.out.println("Pilih Kelurahan Anda");
+                System.out.println("1. Landungsari");
+                System.out.println("2. Sukun");
+                System.out.println("Masukkan Kelurahan :");
+                ip = lr.nextInt();
+                if(ip == 1){
+                    System.out.println("1. RT 1");
+                    System.out.println("2. RT 3");
+                    System.out.println("3. RT 3");
+                    System.out.println("4. RT 4");
+                    System.out.println("Masukkan RT :");
+                    r1= lr.nextInt();
 }
