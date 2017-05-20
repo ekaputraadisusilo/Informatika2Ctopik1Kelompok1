@@ -81,4 +81,20 @@ public class Main {
                     System.out.println("4. RT 4");
                     System.out.println("Masukkan RT :");
                     r1= lr.nextInt();
+                    
+                    if(r1 == 1){
+                        isian.setDesa("Landungsari");
+                        isian.setRt("RT 1");
+                        rt1kl1.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                   
+                    }
+                    else if(r1 == 2){
+                        isian.setDesa("Landungsari");
+                        isian.setRt("RT 2");
+                        rt2kl1.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
 }
