@@ -299,4 +299,15 @@ public class Main {
                     else{
                         System.out.println("Error, data tidak ditemukan.");
                     }
+                }
+                else{
+                    System.out.println("Error, pilihan tidak tersedia.");
+                }
+            }
+            else{
+                System.out.println("Error, pilihan tidak tersedia.");
+            }
+        }
+        while(true);   
+    }
 }
