@@ -97,4 +97,23 @@ public class Main {
                         Scanner yolo = new Scanner(System.in);
                         yolo.nextLine();
                     }
+                    else if(r1 == 3){
+                        isian.setDesa("Landungsari");
+                        isian.setRt("RT 3");
+                        rt3kl1.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else if(r1 == 4){
+                        isian.setDesa("Landungsari");
+                        isian.setRt("RT 4");
+                        rt4kl1.add(isian);
+                        Scanner yolo = new Scanner(System.in);
+                        yolo.nextLine();
+                    }
+                    else{
+                        System.out.println("Error, Melebihi batas RT");
+                    }
+            
+                }
 }
